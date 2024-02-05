@@ -23,7 +23,7 @@ function Home() {
                 <div className="row-span-2 w-full h-full flex flex-col relative items-center justify-center transition-all duration-300 ease-in">
                     <motion.div id="swiperTitle" className="font-bold text-4xl absolute top-10">Personal Favorites</motion.div>
                     <motion.div id="NYTSwiperTitle" className="font-bold text-4xl absolute top-10" style={{opacity: 0}}>NY Times Bestsellers</motion.div>
-                    <div id="swiperContainer" className="large:w-[1200px] desktop:w-[800px] laptop:w-[800px] tablet:w-[500px] w-[1200px] mt-[4rem] absolute">
+                    <div id="swiperContainer" className="large:w-[1200px] desktop:w-[800px] laptop:w-[800px] tablet:w-[300px] w-[1200px] mt-[4rem] absolute">
                         <BookSwiper/>
                     </div>
                     <div id="NYTSwiperContainer" className="mt-[4rem] absolute large:w-[1200px] desktop:w-[800px] laptop:w-[800px] tablet:w-[500px] w-[1200px]" style={{opacity: 0}}>
