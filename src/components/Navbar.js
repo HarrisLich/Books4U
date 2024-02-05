@@ -104,7 +104,7 @@ export default function Navbar() {
             {location.pathname === "/search" ? <motion.div style={{ scaleX }} className="top-0 w-full left-0 fixed h-[10px] bg-pink-300"></motion.div> : null}
             <div className="w-full h-[5rem] grid grid-cols-3 border-b-2 border-black">
                 <div className="w-full h-full flex flex-row items-center justify-center">
-                    <a href="/" className="font-bold font-[sans] text-xl transition-all duration-300 hover:text-pink-300/80">Books4U</a>
+                    <a href="/" className="font-bold font-[sans] text-xl transition-all duration-300 hover:text-pink-300/80">Harris Reads</a>
                 </div>
                 {location.pathname === "/" ?
                     <div className="w-full h-full flex flex-row items-center justify-center gap-4">
