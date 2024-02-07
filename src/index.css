@@ -76,3 +76,40 @@ code {
   top:0;
   font-size:16px;
 }
+
+.input-group{
+  position:relative;
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.input-group2 label {
+  padding:0 10px;
+  background-color: #f6d4f7;
+  color: black;
+  position: absolute;
+  top: 75%;
+  left: 515px;
+  transform: translateY(-50%);
+  text-transform: capitalize;
+  pointer-events: none;
+  font-size:20px;
+  transition: all 0.3s;
+}
+
+.input-group2 input {
+  padding:18px 15px;
+  width:800px;
+  border: 3px solid black;
+  outline: none;
+  color: black;
+  font-size: 16px;
+  font-family:inherit;
+  background-color: transparent;
+  border-radius:10px;
+}
+
+.input-group2 input:focus + label,
+.input-group2 input:not(:placeholder-shown) + label {
+  top:72%;
+  font-size:16px;
+}

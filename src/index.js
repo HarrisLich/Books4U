@@ -6,16 +6,22 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import SearchResults from './views/SearchResults';
 import { createBrowserRouter, RouterProvider, } from 'react-router-dom'
+import ShelfFinder from './views/ShelfFinder';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <App/>
+    element: <App />
   },
   {
     path: '/search',
-    element: <SearchResults/>
+    element: <SearchResults />
+  },
+  {
+    path: "/shelfsearch",
+    element: <ShelfFinder />
   }
+
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

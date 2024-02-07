@@ -117,7 +117,7 @@ export default function Navbar() {
                             <motion.div initial={underlineVariants.rest} animate={nytControls} className="h-[2px] w-full absolute bottom-0 bg-black"></motion.div>
                         </div>
 
-                        <a>Google Bookshelf Finder</a>
+                        <a href="/shelfsearch">Google Bookshelf Finder</a>
                     </div> : null}
 
                 <div></div>
